@@ -1,0 +1,8 @@
+pymupdf
+librosa
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+joblib

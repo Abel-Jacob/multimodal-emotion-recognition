@@ -1,2 +1,13 @@
-# multimodal-emotion-recognition
-Multimodal Emotion Recognition system using the TESS dataset. Achieved 99% accuracy using Early Fusion (Random Forest) by concatenating Speech and Text features. Includes standalone pipelines for Speech-only (95% accuracy) and Text-only analysis. Features modular code for training/testing and comprehensive performance visualizations.
+# Multimodal Emotion Recognition (TESS)
+
+This project implements an emotion recognition system using the Toronto Emotional Speech Set (TESS) following all PDF specifications.
+
+## Performance Results
+- **Speech-only (MLP)**: 99.46% accuracy
+- **Text-only (SVM)**: 0.18% accuracy
+- **Multimodal Early Fusion (Random Forest)**: 97.68% accuracy
+
+## Project Structure
+- `models/`: Training and testing scripts for all three pipelines.
+- `Results/`: Numerical accuracy tables and performance visualizations (Confusion Matrices, Bar Charts).
+- `README.md` & `requirements.txt`: Project documentation and dependencies.
