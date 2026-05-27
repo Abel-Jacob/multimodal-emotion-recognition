@@ -232,10 +232,4 @@ python fusion_train.py
 
 # Authors
 
-Final Year Project – Multimodal Emotion Recognition System
-
----
-
-# License
-
-This project is intended for academic and educational purposes.
+Abel Jacob
