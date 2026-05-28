@@ -320,7 +320,7 @@ python models/fusion-pipeline/test.py
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 * Python
 * TensorFlow / Keras
