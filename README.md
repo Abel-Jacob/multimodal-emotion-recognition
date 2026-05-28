@@ -1,6 +1,6 @@
-# 🎭 Multimodal Emotion Recognition using Speech and Text
+# Multimodal Emotion Recognition using Speech and Text
 
-## 📌 Overview
+## Overview
 
 This project presents a **Multimodal Emotion Recognition System** developed using the **TESS (Toronto Emotional Speech Set)** dataset. The system combines both **speech-based** and **text-based** emotional understanding to classify emotions more effectively.
 
@@ -12,15 +12,15 @@ The project explores:
 
 Three independent pipelines were implemented:
 
-* 🎙️ Speech Emotion Recognition
-* 📝 Text Emotion Recognition
-* 🔀 Multimodal Fusion
+* Speech Emotion Recognition
+* Text Emotion Recognition
+* Multimodal Fusion
 
 ---
 
-# 🧠 System Architecture
+# System Architecture
 
-## 🎙️ Speech Pipeline
+## Speech Pipeline
 
 The speech pipeline uses:
 
@@ -41,7 +41,7 @@ The speech model demonstrated extremely strong standalone performance due to the
 
 ---
 
-## 📝 Text Pipeline
+## Text Pipeline
 
 The text pipeline uses **DistilBERT** contextual embeddings for textual emotion understanding.
 
@@ -49,7 +49,7 @@ Since the TESS dataset contains repetitive and constrained textual content, the 
 
 ---
 
-## 🔀 Fusion Pipeline
+## Fusion Pipeline
 
 The fusion pipeline combines:
 
@@ -60,7 +60,7 @@ These representations are fused for joint emotion classification, improving robu
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 ## Toronto Emotional Speech Set (TESS)
 
@@ -82,13 +82,13 @@ These representations are fused for joint emotion classification, improving robu
 
 ---
 
-# 📊 Experimental Results
+# Experimental Results
 
 | Pipeline            | Accuracy            | Observation                            |
 | ------------------- | ------------------- | -------------------------------------- |
-| 🎙️ Speech Pipeline | **99.58%**          | Strong temporal acoustic modelling     |
-| 📝 Text Pipeline    | **16.67%**          | Limited contextual diversity in TESS   |
-| 🔀 Fusion Pipeline  | Improved robustness | Combined speech + text representations |
+| Speech Pipeline | **99.58%**          | Strong temporal acoustic modelling     |
+| Text Pipeline    | **16.67%**          | Limited contextual diversity in TESS   |
+| Fusion Pipeline  | Improved robustness | Combined speech + text representations |
 
 The speech pipeline achieved the strongest standalone performance due to highly discriminative acoustic emotional features. The text pipeline struggled because the dataset contains repetitive textual structures with limited semantic variation.
 
@@ -96,7 +96,7 @@ The multimodal fusion model improved robustness by combining complementary acous
 
 ---
 
-# 🎙️ Speech Pipeline Analysis
+# Speech Pipeline Analysis
 
 ## Training Performance
 
@@ -170,7 +170,7 @@ This improves interpretability and confirms meaningful emotional representation 
 
 ---
 
-# 📝 Text Pipeline Analysis
+# Text Pipeline Analysis
 
 ## Training Performance
 
@@ -221,7 +221,7 @@ Despite weaker standalone accuracy, contextual embeddings still contributed usef
 
 ---
 
-# 🔀 Fusion Pipeline Analysis
+# Fusion Pipeline Analysis
 
 The multimodal fusion model combines speech and contextual embeddings for joint emotion classification.
 
@@ -251,7 +251,7 @@ Fusion improved overall robustness by leveraging complementary modalities simult
 
 ---
 
-# 🔍 Error Analysis
+# Error Analysis
 
 | Emotion Pair                | Reason                                     |
 | --------------------------- | ------------------------------------------ |
@@ -263,7 +263,7 @@ Most classification errors occurred in lower-intensity emotional categories with
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```text id="jbyrbt"
 .
@@ -283,7 +283,7 @@ Most classification errors occurred in lower-intensity emotional categories with
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 ## Install Dependencies
 
@@ -335,6 +335,6 @@ python models/fusion-pipeline/test.py
 
 ---
 
-# 📄 License
+# License
 
 This project is intended for academic and educational purposes.
