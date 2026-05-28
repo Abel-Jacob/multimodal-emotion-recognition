@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1
+Speech,91.81%,0.9190
+Text,16.67%,0.0476
+Fusion,95.97%,0.9594
